@@ -131,3 +131,82 @@ body {
 }
 
 /* =========================== Media Queries =========================== */
+
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url("./images/bg-mobile.svg");
+  }
+
+  /* =========================== Main Container =========================== */
+  .main-container {
+    width: 23.438rem;
+  }
+
+  .logo {
+    padding: 1.5rem;
+  }
+
+  .logo img {
+    width: 9rem;
+    height: 4.5rem;
+  }
+
+  /* =========================== Sub Container =========================== */
+  .sub-container {
+    width: 23.438rem;
+    min-height: 42rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-container {
+    text-align: center;
+    width: 23.438rem;
+    padding: 0;
+  }
+
+  .info-container h1 {
+    font-size: 1.8rem;
+  }
+
+  .info-container p {
+    font-size: 1rem;
+    padding: 0 2.3rem 0 2.3rem;
+  }
+
+  .graphic {
+    width: 23.438rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .graphic img {
+    width: 20rem;
+    height: 16rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+    width: 16rem;
+    height: 3rem;
+  }
+
+  /* =========================== Socials =========================== */
+
+  .socials {
+    display: flex;
+    justify-content: center;
+  }
+
+  .socials .icons {
+    height: 1.1rem;
+    width: 1.1rem;
+    padding: 0.4rem;
+  }
+
+  .attribution {
+    text-align: center;
+    margin: 3rem 0;
+    font-size: 0.8rem;
+  }
+}
